@@ -1,0 +1,8 @@
+[project]
+name = "sample-java1"
+version = "0.1.0"
+description = "Sample FastAPI backend"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

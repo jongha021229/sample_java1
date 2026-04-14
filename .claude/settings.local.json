@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f /c/Users/fprh2/Desktop/sample_java1/build.gradle /c/Users/fprh2/Desktop/sample_java1/settings.gradle)",
+      "Bash(rm -rf /c/Users/fprh2/Desktop/sample_java1/src)",
+      "Bash(pip install:*)",
+      "Bash(pytest -v)",
+      "Bash(git add:*)"
+    ]
+  }
+}
