@@ -1,11 +1,26 @@
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (legacy)
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
-.venv/
-venv/
-.env
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/

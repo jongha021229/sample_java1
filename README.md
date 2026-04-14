@@ -1,16 +1,21 @@
 # sample_java1
 
-FastAPI 기반 샘플 백엔드 프로젝트
+Spring Boot 기반 Java 샘플 백엔드 프로젝트
 
 ## 실행
 
 ```bash
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+./gradlew bootRun
 ```
 
 ## 테스트
 
 ```bash
-pytest
+./gradlew test
+```
+
+## 빌드
+
+```bash
+./gradlew build
 ```
